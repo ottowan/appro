@@ -1,15 +1,16 @@
 <?php
 defined('BASEPATH') OR exit('No direct script access allowed');
 
-class News extends CI_Controller {
+class Verify extends CI_Controller {
 
 	public function __construct()
 	{
-		parent::__construct();
-		$this->load->library('grocery_CRUD');
-		$this->load->model('Cases_model','cases');
-		$this->load->helper('datehelp');
+		// parent::__construct();
+		// $this->load->library('grocery_CRUD');
+		// $this->load->model('Cases_model','cases');
+		// $this->load->helper('datehelp');
 	}
+	
 	public function _example_output($output = null)
 	{
 		$this->load->view('arch',(array)$output);
