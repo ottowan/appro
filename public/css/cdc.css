@@ -1,0 +1,116 @@
+body{
+    padding-top: 50px; 
+    font-size:13 px;
+    font-family: "proxima-nova","Helvetica Neue",Helvetica,Arial,sans-serif;
+  }
+  a {
+    color: #0a7cc4;
+    font-weight: bold;
+  }
+  a:hover, a:focus {
+    color: #0e9af3;
+  }
+  .sub-header{
+    font-size: 1.2em;
+    font-weight: bold;
+  }
+  .percent, name{
+    height: 20px;
+    margin-bottom: 10px;
+  }
+
+  .progress{
+    margin-bottom: 0px;
+  }
+
+  .container{
+    background: #fff;
+    padding: 0.625em;
+    box-shadow: 0 2px 4px rgba(0,0,0,0.1);   
+  }
+
+  .detail{
+    text-align:right;
+  }
+
+  .up_down{
+    width : 12px;
+    height: 12px;
+    vertical-align: top;
+  } 
+
+  .minus{
+    width : 12px;
+    height: 12px;
+    vertical-align: center;
+  } 
+
+  .underline{
+    color:#CCCCCC; 
+    margin-top:0px; 
+    margin-bottom: 7px;
+  }
+
+
+  .list-group-item {
+    padding: 6px 15px;
+  }
+
+  .election-data{
+    font-weight: normal;
+  }
+
+  .colorgraph {
+    height: 5px;
+    border-top: 0;
+    background: #c4e17f;
+    border-radius: 5px;
+    margin-top:4px; 
+    margin-bottom: 4px;
+    background-image: linear-gradient(to right, #c4e17f, #c4e17f 12.5%, #f7fdca 12.5%, #f7fdca 25%, #fecf71 25%, #fecf71 37.5%, #f0776c 37.5%, #f0776c 50%, #db9dbe 50%, #db9dbe 62.5%, #c49cde 62.5%, #c49cde 75%, #669ae1 75%, #669ae1 87.5%, #62c2e4 87.5%, #62c2e4);
+  }
+  .fa-1_5x {
+    font-size: 1.5em !important;
+  }
+
+  .alert {
+    margin-bottom: 0px !important;
+    padding: 15px 15px 15px 0px !important;
+    /* margin-bottom: 20px; */
+  }
+
+
+  .election-info {
+    color: #31708f;
+    background-color: #d9edf7;
+    border-color: #bce8f1;
+}
+
+.election-success {
+  color: #3c763d;
+  background-color: #dff0d8;
+  border-color: #d6e9c6;
+}
+
+h4 {
+    display:inline-block;
+    float:left;
+}
+
+.set-right {
+    display:inline-block;
+    float:right;
+}
+
+.set-left {
+    display:inline-block;
+    float:left;
+}
+
+.center-block {
+  float: none !important
+}
+
+.custom-width-modal {
+  width: 650px;
+}
