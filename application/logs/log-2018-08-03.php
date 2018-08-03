@@ -95,3 +95,32 @@ ERROR - 2018-08-03 08:47:04 --> Severity: Notice --> Undefined index: office_id 
 DEBUG - 2018-08-03 08:47:04 --> UTF-8 Support Enabled
 DEBUG - 2018-08-03 08:47:04 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2018-08-03 08:47:04 --> Total execution time: 0.0516
+DEBUG - 2018-08-03 08:56:48 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:56:48 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:56:48 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-03 08:56:49 --> Severity: Warning --> mysqli::real_connect(): (HY000/1045): Access denied for user 'root'@'localhost' (using password: NO) C:\xampp\htdocs\appro\system\database\drivers\mysqli\mysqli_driver.php 161
+ERROR - 2018-08-03 08:56:49 --> Unable to connect to the database
+DEBUG - 2018-08-03 08:57:22 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:57:22 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:57:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:57:22 --> Encryption: Auto-configured driver 'mcrypt'.
+DEBUG - 2018-08-03 08:57:22 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:57:22 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:57:22 --> Total execution time: 0.1805
+DEBUG - 2018-08-03 08:57:48 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:57:48 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:57:48 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:57:48 --> Encryption: Auto-configured driver 'mcrypt'.
+DEBUG - 2018-08-03 08:57:48 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:57:48 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:57:48 --> Total execution time: 0.1278
+DEBUG - 2018-08-03 08:57:56 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:57:56 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:57:56 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:57:57 --> Encryption: Auto-configured driver 'mcrypt'.
+DEBUG - 2018-08-03 08:57:57 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:57:57 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2018-08-03 08:57:57 --> Severity: Notice --> Undefined index: office_id C:\xampp\htdocs\appro\application\controllers\Login.php 60
+DEBUG - 2018-08-03 08:57:57 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:57:57 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:57:57 --> Total execution time: 0.0307
