@@ -68,10 +68,10 @@ class Login extends CI_Controller {
                         //LOGIN สำเร็จ ไปไหนต่อ
                         switch($session_data['role']){
                             case 'admin':
-                                redirect('verfify/admin');
+                                redirect('verify/admin');
                                 
                         }
-                        redirect('verfify');
+                        redirect('verify');
                     }
                 } else {
                     $data = array(

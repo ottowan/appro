@@ -35,3 +35,63 @@ DEBUG - 2018-08-03 08:07:06 --> Global POST, GET and COOKIE data sanitized
 DEBUG - 2018-08-03 08:07:06 --> Encryption: Auto-configured driver 'mcrypt'.
 DEBUG - 2018-08-03 08:07:06 --> Form_validation class already loaded. Second attempt ignored.
 DEBUG - 2018-08-03 08:07:06 --> Total execution time: 0.1111
+DEBUG - 2018-08-03 08:44:27 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:44:27 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:44:27 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:44:28 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2018-08-03 08:44:28 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:44:28 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:44:28 --> Total execution time: 0.5922
+DEBUG - 2018-08-03 08:44:28 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:44:28 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-03 08:44:28 --> 404 Page Not Found: Images/favicon.png
+DEBUG - 2018-08-03 08:44:38 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:44:38 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:44:38 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:44:38 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2018-08-03 08:44:38 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:44:38 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2018-08-03 08:44:38 --> Severity: Notice --> Undefined index: office_id C:\xampp\htdocs\appro\application\controllers\Login.php 60
+DEBUG - 2018-08-03 08:44:38 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:44:38 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-03 08:44:38 --> 404 Page Not Found: Verfify/admin
+DEBUG - 2018-08-03 08:44:43 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:44:43 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:44:43 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:44:43 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2018-08-03 08:44:43 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:44:43 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:44:43 --> Total execution time: 0.1560
+DEBUG - 2018-08-03 08:45:22 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:45:22 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:45:22 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:45:22 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2018-08-03 08:45:22 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:45:22 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2018-08-03 08:45:22 --> Severity: Notice --> Undefined index: office_id C:\xampp\htdocs\appro\application\controllers\Login.php 60
+DEBUG - 2018-08-03 08:45:22 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:45:22 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-03 08:45:22 --> 404 Page Not Found: Verfify/admin
+DEBUG - 2018-08-03 08:46:56 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:46:56 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-03 08:46:56 --> 404 Page Not Found: Verfify/admin
+DEBUG - 2018-08-03 08:46:57 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:46:57 --> Global POST, GET and COOKIE data sanitized
+ERROR - 2018-08-03 08:46:57 --> 404 Page Not Found: Verfify/admin
+DEBUG - 2018-08-03 08:46:58 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:46:58 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:46:58 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:46:58 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2018-08-03 08:46:58 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:46:58 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:46:58 --> Total execution time: 0.1533
+DEBUG - 2018-08-03 08:47:04 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:47:04 --> No URI present. Default controller set.
+DEBUG - 2018-08-03 08:47:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:47:04 --> Encryption: Auto-configured driver 'openssl'.
+DEBUG - 2018-08-03 08:47:04 --> Form_validation class already loaded. Second attempt ignored.
+DEBUG - 2018-08-03 08:47:04 --> Form_validation class already loaded. Second attempt ignored.
+ERROR - 2018-08-03 08:47:04 --> Severity: Notice --> Undefined index: office_id C:\xampp\htdocs\appro\application\controllers\Login.php 60
+DEBUG - 2018-08-03 08:47:04 --> UTF-8 Support Enabled
+DEBUG - 2018-08-03 08:47:04 --> Global POST, GET and COOKIE data sanitized
+DEBUG - 2018-08-03 08:47:04 --> Total execution time: 0.0516
