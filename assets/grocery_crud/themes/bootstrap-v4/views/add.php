@@ -93,9 +93,7 @@ include(__DIR__ . '/common_javascript_vars.php');
 
 <?php
     $this->set_js_lib($this->default_theme_path.'/bootstrap-v4/js/coj/date_thai.js');
-    $this->set_js_lib($this->default_theme_path.'/bootstrap-v4/js/coj/case_add.js');
-    $this->set_js_lib($this->default_theme_path.'/bootstrap-v4/js/coj/before_accused_add.js');
-    $this->set_js_lib($this->default_theme_path.'/bootstrap-v4/js/coj/release_add.js');
+
 ?>
 
 

@@ -53,12 +53,14 @@ class Login extends CI_Controller {
                 if ($result == TRUE) {            
                     $username = $this->input->post('username');
                     $result = $this->admins->read_user_information($username);
+
+
                     if ($result != false) {
                         $session_data = array(
                             'uid' => $result['id'],
                             'username' => $result['username'],
                             'office_id' => $result['office_id'],
-                            'department'=>$result['department_id'],
+                            'department_id'=>$result['department_id'],
                             'name' => $result['name'],
                             'role' => $result['role']
                         );
@@ -68,10 +70,10 @@ class Login extends CI_Controller {
                         //LOGIN สำเร็จ ไปไหนต่อ
                         switch($session_data['role']){
                             case 'admin':
-                                redirect('verify/admin');
+                                redirect('project/admin');
                                 
                         }
-                        redirect('verify');
+                        redirect('project');
                     }
                 } else {
                     $data = array(

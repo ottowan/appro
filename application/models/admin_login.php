@@ -71,7 +71,7 @@ public function changepass($data) {
 // Read data from database to show data in admin page
 public function read_user_information($username) {
 
-    $this->db->select('user.id,user.office_id office,user.name,user.email,
+    $this->db->select('user.id,user.office_id,user.name,user.email,
     user.username,user.createdAt createdAt,user.updatedAt updatedAt,
     office.department_id department_id,office.name officer_name,user.role role');
     $this->db->join('office', 'user.office_id = office.id');

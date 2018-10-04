@@ -91,10 +91,6 @@ include(__DIR__ . '/common_javascript_vars.php');
 
 </script>
 
-
-
 <?php
     $this->set_js_lib($this->default_theme_path.'/bootstrap-v4/js/coj/date_thai.js');
-    $this->set_js_lib($this->default_theme_path.'/bootstrap-v4/js/coj/case_edit.js');
-    $this->set_js_lib($this->default_theme_path.'/bootstrap-v4/js/coj/before_accused_edit.js');
 ?>

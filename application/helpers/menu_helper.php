@@ -22,13 +22,13 @@ if ( ! function_exists('incase_menu'))
 		if(!empty($option['supreme'])){
 		array_push($menu,array('text'=>'วันนัดชั้นฏีกา','link'=>base_url('SupremeAppoint/appoint/'.$case_id."/".$option['supreme']),'css'=>($num==8)?'w3-black':''));
 		if(!empty($option['appoint_id'])){
-		array_push($menu,array(
-			'text'=>'เลื่อนนัดชั้นฏีกา',
-			'link'=>base_url('SupremeChangeAppoint/changeappoint/'.$case_id."/".$option['supreme']."/".$option['appoint_id']),
-			'css'=>($num==9)?'w3-black':''));
-		
+			array_push($menu,array(
+				'text'=>'เลื่อนนัดชั้นฏีกา',
+				'link'=>base_url('SupremeChangeAppoint/changeappoint/'.$case_id."/".$option['supreme']."/".$option['appoint_id']),
+				'css'=>($num==9)?'w3-black':''));
+			
+			}
 		}
-	}
 		//array_push($menu,array('text'=>'ชั้นฝากขัง','link'=>base_url('imprison/index/'.$case_id),'css'=>($num==7)?'w3-black':''));
 		return($menu);
 	}	

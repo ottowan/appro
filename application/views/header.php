@@ -97,7 +97,7 @@ defined('BASEPATH') OR exit('No direct script access allowed');
 	ยินดีต้อนรับ <?=$name?>  
 	<?PHP 
 	if(!empty($token_data)){
-		echo $token_data['office'];
+		echo $token_data['office_id'];
 		if($token_data['role']=='admin')
 		echo '(<a href="'.base_url("login/users").'" >รายชื่อผู้ใช้งาน</a>)';
 	}
